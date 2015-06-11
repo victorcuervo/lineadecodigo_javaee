@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.lineadeacodigo.javaee.commons.WebInfo;
+import com.lineadecodigo.javaee.commons.WebInfo;
 
 
 public class MiPrimerServlet extends HttpServlet {

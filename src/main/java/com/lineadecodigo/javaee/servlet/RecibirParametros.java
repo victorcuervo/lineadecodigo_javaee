@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.lineadeacodigo.javaee.commons.WebInfo;
+import com.lineadecodigo.javaee.commons.WebInfo;
 
 
 public class RecibirParametros extends HttpServlet {
@@ -35,7 +35,7 @@ public class RecibirParametros extends HttpServlet {
 		out.println("<h1>Enviar parametros a un Servlet</h1>");
 		
 		
-		//Capturamos los parÃ¡metros
+		//Capturamos los parámetros
 		String parametro1 = request.getParameter("p1");
 		String parametro2 = request.getParameter("p2");
 		
@@ -48,9 +48,9 @@ public class RecibirParametros extends HttpServlet {
 		} else {
 			
 			out.println("<form method='get' action='RecibirParametros'>");
-			out.println("<label for='p1'>ParÃ¡metro 1:</label> <input type='text' name='p1' id='p1' size='20'/><br/>");
-			out.println("<label for='p2'>ParÃ¡metro 2:</label> <input type='text' name='p2' id='p2' size='20'/><br/>");
-			out.println("<input type='submit' value='Enviar ParÃ¡metros'/>");
+			out.println("<label for='p1'>Parámetro 1:</label> <input type='text' name='p1' id='p1' size='20'/><br/>");
+			out.println("<label for='p2'>Parámetro 2:</label> <input type='text' name='p2' id='p2' size='20'/><br/>");
+			out.println("<input type='submit' value='Enviar Parámetros'/>");
 			out.println("</form>");			
 			
 		}

@@ -20,7 +20,16 @@
 	<li><a href="RespuestaXML">Responder un XML</a></li>
 </ul>
 
-<h2>Páginas JSP</h2>
+<h2>Java Server Pages</h2>
+
+<ul>
+	<li><a href="mi-primer-jsp.jsp">Mi Primer JSP</a>
+	<li><a href="obtener-fecha.jsp">Obtener Fecha</a>
+	<li><a href="redirect.jsp">Redireccionar Página</a>
+	<li><a href="sumar-datos.jsp">Sumar Datos</a>
+	<li><a href="enviar-multiples-datos/">Enviar Múltiples Datos</a>
+	<li><a href="include-jsp/incluir-html-en-jsp.jsp">Incluir HTML en JSP</a>
+</ul>
 
 </body>
 </html>
