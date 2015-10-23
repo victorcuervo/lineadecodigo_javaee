@@ -35,7 +35,7 @@ public class RecibirParametros extends HttpServlet {
 		out.println("<h1>Enviar parametros a un Servlet</h1>");
 		
 		
-		//Capturamos los par�metros
+		//Capturamos los parámetros
 		String parametro1 = request.getParameter("p1");
 		String parametro2 = request.getParameter("p2");
 		
