@@ -79,4 +79,31 @@
     <servlet-name>RespuestaXML</servlet-name>
     <url-pattern>/RespuestaXML</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MappingAnotaciones</display-name>
+    <servlet-name>MappingAnotaciones</servlet-name>
+    <servlet-class>com.lineadecodigo.javaee.servlet.MappingAnotaciones</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MappingAnotaciones</servlet-name>
+    <url-pattern>/MappingAnotaciones</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <servlet>
+    <servlet-name>Jersey REST Service</servlet-name>
+    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+    <init-param>
+		     <param-name>com.sun.jersey.config.property.packages</param-name>
+		     <param-value>com.lineadecodigo.javaee.rest</param-value>
+	</init-param>
+    <load-on-startup>1</load-on-startup>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>Jersey REST Service</servlet-name>
+    <url-pattern>/rest/*</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
