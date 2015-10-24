@@ -1,5 +1,14 @@
 package com.lineadecodigo.javaee.servlet;
 
+/**
+ * @file MappingAnotaciones.java
+ * @version 1.0
+ * @author Linea de Codigo (http://lineadecodigo.com)
+ * @date   25/oct/2015
+ * @url    http://lineadecodigo.com/java/servlet-mapping-con-anotaciones/
+ * @description Servlet que realiza el Mapping con Anotaciones  
+ */
+
 
 import java.io.IOException;
 import javax.servlet.ServletException;
