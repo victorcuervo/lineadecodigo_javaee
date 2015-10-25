@@ -18,6 +18,8 @@
 	<li><a href="ParametrosInicio">Parametros de Inicio</a></li>
 	<li><a href="RecibirParametros">Recibir Parámetros</a></li>
 	<li><a href="RespuestaXML">Responder un XML</a></li>
+	<li><a href="Anotaciones">Servlet Mapping con Anotaciones</a></li>
+	<li><a href="AnotacionesParametros">Parametros de Inicio con Anotaciones</a></li>	
 </ul>
 
 <h2>Java Server Pages</h2>
@@ -30,6 +32,8 @@
 	<li><a href="enviar-multiples-datos/">Enviar Múltiples Datos</a>
 	<li><a href="include-jsp/incluir-html-en-jsp.jsp">Incluir HTML en JSP</a>
 </ul>
+
+<h2>JAX-RS: Servicios RESTful</h2>
 
 </body>
 </html>
