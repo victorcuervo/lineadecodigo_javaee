@@ -10,7 +10,7 @@ El repositorio está montando con una structura maven, así que podrás ejecutar
 
 ```bash
 mvn package clean
-mav tomcat7:run-war
+mvn tomcat7:run-war
 ```
 
 Una vez arrancado el servidor Tomcat deberás de ir a:
