@@ -35,5 +35,10 @@
 
 <h2>JAX-RS: Servicios RESTful</h2>
 
+<ul>
+	<li><a href="rest/holamundo">Servicio REST Hola Mundo</a>
+	<li><a href="rest/saludo/victor">Servicio REST con parámetro</a>
+</ul>
+
 </body>
 </html>
