@@ -9,7 +9,6 @@ package com.lineadecodigo.javaee.rest;
  * @description Ejemplo para crear un servicio RESTful mediante JAX-RS  
  */
 
-
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
