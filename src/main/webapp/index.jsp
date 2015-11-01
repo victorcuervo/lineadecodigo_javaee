@@ -38,6 +38,8 @@
 <ul>
 	<li><a href="rest/holamundo">Servicio REST Hola Mundo</a>
 	<li><a href="rest/saludo/victor">Servicio REST con parámetro</a>
+	<li><a href="rest/saludo?nombre=Luis">Servicio REST con parámetro por query (valor Luis)</a>
+	<li><a href="rest/lista?item=tomate&item=pan&item=galletas&item=vino&item=agua">Servicio REST con parámetro</a>
 </ul>
 
 </body>
