@@ -116,4 +116,14 @@
     <servlet-name>TimeoutSession</servlet-name>
     <url-pattern>/TimeoutSession</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletForward</display-name>
+    <servlet-name>ServletForward</servlet-name>
+    <servlet-class>com.lineadecodigo.javaee.servlet.ServletForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletForward</servlet-name>
+    <url-pattern>/ServletForward</url-pattern>
+  </servlet-mapping>
 </web-app>
